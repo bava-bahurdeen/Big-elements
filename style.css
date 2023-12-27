@@ -40,6 +40,8 @@ body{
 
 .img>img{
     border-radius: 7px;
+    width: 200px;
+    height: 200px;
 }
 .img>p{
     font-weight: 600;
@@ -78,6 +80,7 @@ th{
 }
 th>img{
    position: absolute;
+   width: 15px;
    left: 165px;
    top: 28px;
 }
@@ -179,6 +182,9 @@ tr>td>button{
     border-radius: 7px;
     margin-top: 20px;
 }
+.banner-image>img{
+    width: 100px;
+}
 .banner-content{
     display: flex;
     flex-direction: column;
@@ -219,11 +225,11 @@ width: 65rem;
     border-radius: 7px;
 }
 
-.accordin>li>a{
+.accordin>ul>li>a{
     text-decoration: none;
     font-weight:bolder;
 }
-.accordin>li{
+.accordin>ul>li{
 border-bottom: 1px solid var(--darkgrey);
     list-style-type: none;
     padding-left: 40px;
